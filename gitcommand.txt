@@ -1,0 +1,40 @@
+git config --global user.name <name>
+git config --global user.email <email>
+
+git config --global color.ui auto // for coloring
+
+git init . //initilazing git in local machin the first time
+           // if we clone the git we do not have to do git init
+
+git add . // to add all file to the staging area
+git add <file name> //add single file to the staging area
+git add -A // add all file with out respect to the current folder
+           //git add . only add the current folder file
+           // git add -A this add all the file even out side of current folder
+
+git commit -m "" //for commit and add message
+git commit --amend -m "" //to ammend the current message we were 
+                         //commited
+git log //show the commitd file
+git diff // show the different 
+
+git restore <file name>// restore back to previous status
+
+#######Push#########
+push an existing repository from the command line
+git remote add origin <repo name like https://github.com/elias-teshome/learning_git.git>
+git branch -M main
+git push -u origin main //this is for the first time push
+
+git push //this is later push
+
+when we already push local repo to github we do not have to 
+do git push -u origin main just git push is enough
+
+###########Pull#############
+pull is the revers of push, get file from github to local machine
+
+
+
+
+ 
