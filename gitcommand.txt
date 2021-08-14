@@ -34,6 +34,31 @@ do git push -u origin main just git push is enough
 ###########Pull#############
 pull is the revers of push, get file from github to local machine
 
+git pull
+
+##########Branches###############
+git branch // tells you which branch are currently working
+           // only tell us the local branch
+git branch -r // the same thing but tell us the remote branch
+
+git branch -a //show all branches
+
+git branch <name>// to create branch
+
+git checkout <branch name>//to switch branches
+
+git checkout -// this switch to the previus branch
+
+//the local branch should be pushed to the github 
+at the first time use 
+
+git push -u origin <branch name> or  git push --set-upstream origin <branch name>
+
+
+//not the first time use 
+git push
+
+
 
 
 
