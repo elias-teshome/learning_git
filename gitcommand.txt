@@ -109,6 +109,7 @@ first squash all the commit and stash it then rebase the main to your branch the
 the push to your branch safelly finally ask a pull request to merge to main
 
 ###############rebase#####################
+take the latest changes from main branch and add our chnage on top of it.
 
 
 
