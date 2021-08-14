@@ -111,6 +111,24 @@ the push to your branch safelly finally ask a pull request to merge to main
 ###############rebase#####################
 take the latest changes from main branch and add our chnage on top of it.
 
+git pull -r origion main or git pull --rebase origion main// this bring the latest change in main and  add to 
+our branch the put our branch on top of it.
+when this happen conflict may occur so, resolve conflice first manualy then 
+
+use :
+git add .
+git rebase --continue
+
+again conflict occure may be use 
+
+git add .
+git rebase --continue
+
+use the above command repeatedly until all the conflict gone
+then finaly rebase successfully done use 
+
+gut push -f// force push to your branch.
+
 
 
 
