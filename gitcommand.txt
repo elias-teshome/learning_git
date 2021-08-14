@@ -58,6 +58,20 @@ git push -u origin <branch name> or  git push --set-upstream origin <branch name
 //not the first time use 
 git push
 
+git checkout -b <branch name>// creating and checkout to the new branch. this is 2 
+                        //steps 
+git branch -d <branch name>//to delete local branches
+
+########merge ##############
+becare full to merge your branch to the main or master
+branch instead of doing git merge <branch name> in the main branch.
+use a pull requesst and some one upprove you code to merge then 
+you can merege that to main. this is all done in the github sit not in the bash 
+
+
+
+
+
 
 
 
