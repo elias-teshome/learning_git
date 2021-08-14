@@ -64,6 +64,16 @@ git push
 git checkout -b <branch name>// creating and checkout to the new branch. this is 2 
                         //steps 
 
+deleting local branch use:
+
+ git branch -d branch_name
+ git branch -D branch_name
+The -d option is an alias for --delete, which only deletes the branch if it has already been fully merged in its upstream branch. You could also use -D, which is an alias for --delete --force, which deletes the branch "irrespective of its merged status." [Source: man git-branch]
+Also note that git branch -d branch_name will fail if you are currently in the branch you want to remove. The message starts with error: Cannot delete the branch 'branch_name'. If so, first switch to some other branch, for example: git checkout main.
+
+deleting remote branch use:
+
+git push origin --delete {the_remote_branch}
 
 ########merge ##############
 becare full to merge your branch to the main or master
