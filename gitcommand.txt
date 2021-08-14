@@ -60,7 +60,7 @@ git push
 
 git checkout -b <branch name>// creating and checkout to the new branch. this is 2 
                         //steps 
-git branch -d <branch name>//to delete local branches
+
 
 ########merge ##############
 becare full to merge your branch to the main or master
