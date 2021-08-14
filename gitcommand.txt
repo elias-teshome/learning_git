@@ -16,6 +16,9 @@ git commit -m "" //for commit and add message
 git commit --amend -m "" //to ammend the current message we were 
                          //commited
 git log //show the commitd file
+
+git log --oneline //show all the commit in one line 
+
 git diff // show the different 
 
 git restore <file name>// restore back to previous status
