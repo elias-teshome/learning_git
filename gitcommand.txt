@@ -108,6 +108,7 @@ then work on your branch may have many commit and then if conflict happes
 first squash all the commit and stash it then rebase the main to your branch then add the stash on top of it
 the push to your branch safelly finally ask a pull request to merge to main
 
+###############rebase#####################
 
 
 
