@@ -100,3 +100,15 @@ you can merege that to main. this is all done in the github sit not in the bash
 
 after resieving a request from some body then you can merge to main
 
+
+############git work flow#################
+you should always pull the latest from the main branch first
+then creat your the branch by using git checkout -b <branch name>//this is two steps
+then work on your branch may have many commit and then if conflict happes
+first squash all the commit and stash it then rebase the main to your branch then add the stash on top of it
+the push to your branch safelly finally ask a pull request to merge to main
+
+
+
+
+
