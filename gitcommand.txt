@@ -49,6 +49,22 @@ git checkout <branch name>//to switch branches
 
 git checkout -// this switch to the previus branch
 
+//the local branch should be pushed to the github 
+at the first time use 
+
+git push -u origin <branch name> or  git push --set-upstream origin <branch name>
+
+
+//not the first time use 
+git push
+
+git checkout -b <branch name>// creating and checkout to the new branch. this is 2 
+                        //steps 
+git branch -d <branch name>//to delete branches
+
+
+
+
 
 
 
